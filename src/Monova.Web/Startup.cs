@@ -25,7 +25,7 @@ namespace Monova.Web
         {
             // Configure DbContext
             services.AddDbContext<MVDContext>(
-                options => options.UseNpgsql("Server=localhost;Port=5432;Database=monova;User Id=postgres;Password=1Qaz2Wsx")
+                options => options.UseNpgsql("Server=localhost;Port=5432;Database=monova;User Id=postgres;Password=bascule")
             );
 
             //Configure Identity
